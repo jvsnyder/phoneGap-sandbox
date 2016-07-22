@@ -6,7 +6,11 @@
     version     = "1.0.0" >
 
 <!-- versionCode is optional and Android only -->
-
+	<access origin="tel:*" launch-external="yes"/>
+	<access origin="geo:*" launch-external="yes"/>
+	<access origin="mailto:*" launch-external="yes"/>
+	<access origin="sms:*" launch-external="yes"/>
+	<access origin="market:*" launch-external="yes"/>
   <name>Hello Phone Gap</name>
 
   <description>
