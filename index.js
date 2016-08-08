@@ -1,3 +1,3 @@
-$(document).on('pageinit', function(){
+$(document).on('pagecreate', function(){
 alert("script from geoLocation is being read in...")
 });
