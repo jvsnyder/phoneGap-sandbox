@@ -16,11 +16,12 @@
   <author  email="jvsnyder15@gmail.com">
       Jason Snyder
     </author>
-<access origin="tel:*" launch-external="yes"/>
+  <access origin="tel:*" launch-external="yes"/>
   <access origin="geo:*" launch-external="yes"/>
   <access origin="mailto:*" launch-external="yes"/>
   <access origin="sms:*" launch-external="yes"/>
   <access origin="market:*" launch-external="yes"/>
+  <access origin="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
   <access origin="http://code.jquery.com/jquery-1.11.1.min.js" />
   <access origin="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js" />
 
@@ -31,6 +32,7 @@
   <allow-intent href="sms:*"/>
   <allow-intent href="mailto:*"/>
   <allow-intent href="geo:*"/>
+  <allow-intent href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
   <allow-intent href="http://code.jquery.com/jquery-1.11.1.min.js"/>
   <allow-intent href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"/>
   <platform name="android">
