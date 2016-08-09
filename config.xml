@@ -21,6 +21,8 @@
   <access origin="mailto:*" launch-external="yes"/>
   <access origin="sms:*" launch-external="yes"/>
   <access origin="market:*" launch-external="yes"/>
+  <access origin="http://code.jquery.com/jquery-1.11.1.min.js" />
+  <access origin="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js" />
 
   <plugin name="cordova-plugin-whitelist" spec="1" />
   <allow-intent href="http://*/*"/>
@@ -29,6 +31,8 @@
   <allow-intent href="sms:*"/>
   <allow-intent href="mailto:*"/>
   <allow-intent href="geo:*"/>
+  <allow-intent href="http://code.jquery.com/jquery-1.11.1.min.js"/>
+  <allow-intent href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"/>
   <platform name="android">
     <access origin="*" />
     <allow-intent href="*" />
