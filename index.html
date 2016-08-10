@@ -3,20 +3,41 @@
 <head>
 <title></title>
 <script type="text/javascript" src="cordova.js"></script>
-<!--<script src ="js/jquery-3.1.0.min.js"></script>-->
-<!--<script src ="js/jquery.mobile-1.4.5.min.js"></script>-->
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src ="js/jquery-3.1.0.min.js"></script>
+<script src ="js/jquery.mobile-1.4.5.min.js"></script>
+<!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />-->
+<!--<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
 <script type=" text/javascript" src="index.js"></script>
 </head>
 <body>
+<div data-role="page" id="pageone">
+  <div data-role="header">
+    <h1>Welcome To My Homepage</h1>
+  </div>
 
-<p><a href="mailto:jasnyder@plum.com">both jquery files</a></p>
-<p>trying to get jqueryMobile working urgh okay....</p>
-<a href="#popupBasic" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">Basic Popup</a>
-<div data-role="popup" id="popupBasic">
-<p>This is a completely basic popup, no options set.</p>
+  <div data-role="main" class="ui-content">
+    <p>Welcome! If you click on the link below, it will take you to Page Two.</p>
+    <a href="#pagetwo">Go to Page Two</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Footer Text</h1>
+  </div>
+</div>
+
+<div data-role="page" id="pagetwo">
+  <div data-role="header">
+    <h1>Welcome To My Homepage</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>This is Page Two. If you click on the link below, it will take you to Page One.</p>
+    <a href="#pageone">Go to Page One</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Footer Text</h1>
+  </div>
 </div>
 </body>
 </html>
